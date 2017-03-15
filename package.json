@@ -1,0 +1,22 @@
+{
+  "name": "emailservice-lib",
+  "author": "Daniel Scholl",
+  "description": "A simple wrapper on nodemailer",
+  "version": "2.0.0",
+  "private": false,
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "nodemailer": "^1.3.4",
+    "nodemailer-sendgrid-transport": "^0.1.0",
+    "nodemailer-smtp-transport": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "grunt": "latest",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.2.4",
+    "lodash": "^3.4.0"
+  }
+}
